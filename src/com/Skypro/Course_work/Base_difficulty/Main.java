@@ -40,21 +40,22 @@ public class Main {
     }
 
     public static double receiveMinSalaryEmployees(Employee[] sEmployees) {
-        double min = sEmployees[0].getEmployeeSalary();
+        double minSalary = sEmployees[0].getEmployeeSalary();
         for (Employee sEmployee : sEmployees) {
             double minTemp = sEmployee.getEmployeeSalary();
-            if (minTemp < min) min = minTemp;
+            if (minTemp < minSalary) minSalary = minTemp;
         }
-        return min;
+        return minSalary;
+
     }
 
     public static double receiveMaxSalaryEmployees(Employee[] sEmployees) {
-        double max = sEmployees[0].getEmployeeSalary();
+        double maxSalary = sEmployees[0].getEmployeeSalary();
         for (int i = 0; i < sEmployees.length; i++) {
             double maxTemp = sEmployees[i].getEmployeeSalary();
-            if (maxTemp > max) max = maxTemp;
+            if (maxTemp > maxSalary) maxSalary = maxTemp;
         }
-        return max;
+        return maxSalary;
     }
 
     public static double receiveAverageValueSalary(Employee[] sEmployees) {

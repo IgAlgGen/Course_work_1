@@ -81,11 +81,11 @@ public class Main {
                 asEmployee.add(sEmployees[i]);
             }
         }
-        double sum = 0;
+        double sumSalary = 0;
         for (int j = 0; j < asEmployee.size(); j++) {
-            sum += asEmployee.get(j).getEmployeeSalary();
+            sumSalary += asEmployee.get(j).getEmployeeSalary();
         }
-        return sum;
+        return sumSalary;
     }
 
     public static double findAverageWageInDepartment(Employee[] sEmployees, int department) {
@@ -95,11 +95,11 @@ public class Main {
                 asEmployee.add(sEmployees[i]);
             }
         }
-        double sum = 0;
+        double sumSalary = 0;
         for (int j = 0; j < asEmployee.size(); j++) {
-            sum += asEmployee.get(j).getEmployeeSalary();
+            sumSalary += asEmployee.get(j).getEmployeeSalary();
         }
-        double averageValue = sum / asEmployee.size();
+        double averageValue = sumSalary / asEmployee.size();
         double scale = Math.pow(10, 2); // округление до сотых.
         return Math.ceil(averageValue * scale) / scale;
     }
