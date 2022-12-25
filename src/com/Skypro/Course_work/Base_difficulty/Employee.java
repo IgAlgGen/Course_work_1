@@ -15,7 +15,8 @@ public class Employee {
         this.employeeLastName = employeeLastName;
         this.employeeMiddleName = employeeMiddleName;
         this.employeeDivision = employeeDivision;
-        this.employeeSalary = employeeSalary;
+        double scale = Math.pow(10, 2); // округление employeeSalary до сотых.
+        this.employeeSalary = Math.ceil(employeeSalary * scale) / scale;
         idCounter++;
 
     }
@@ -27,7 +28,7 @@ public class Employee {
                 " " + employeeFistName +
                 " " + employeeMiddleName +
                 ", Отдел " + employeeDivision +
-                ", Зарплата " + employeeSalary;
+                ", Зарплата: " + employeeSalary;
 
     }
 

@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb5d324-e483-427a-93d9-9b450a6431e1" name="Changes" comment="Finished base difficult level of homework">
-      <change afterPath="$PROJECT_DIR$/src/com/Skypro/Course_work/Base_difficulty/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Skypro/Course_work/Increased_difficulty/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Skypro/Course_work/Task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Skypro/Course_work/Base_difficulty/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Skypro/Course_work/Base_difficulty/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Skypro/Course_work/Base_difficulty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Skypro/Course_work/Base_difficulty/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Skypro/Course_work/Increased_difficulty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Skypro/Course_work/Increased_difficulty/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2JJn8ssFjEMe7zmWCHkQtYeCq39" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,9 +52,18 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Skypro.Course_work.Increased_difficulty" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +74,8 @@
       <updated>1671804898710</updated>
       <workItem from="1671804899864" duration="18573000" />
       <workItem from="1671872579397" duration="9824000" />
-      <workItem from="1671892715918" duration="14329000" />
+      <workItem from="1671892715918" duration="15647000" />
+      <workItem from="1671959681909" duration="21116000" />
     </task>
     <task id="LOCAL-00001" summary="Start course work">
       <created>1671806000534</created>
@@ -70,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671806000534</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished base difficult level of homework">
+      <created>1671924286250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671924286250</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

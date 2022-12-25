@@ -1,28 +1,23 @@
 package com.Skypro.Course_work.Base_difficulty;
 
+
 public class Main {
-    private static final Employee[] sEmployees = new Employee[10];
+    public static final Employee[] sEmployees = new Employee[10];
 
     public static void main(String[] args) {
 
-        sEmployees[0] = new Employee("Иванов", "Иван", "Иванович", 1, 65500.10);
-        sEmployees[1] = new Employee("Петров", "Петр", "Петрович", 2, 55500.50);
-        sEmployees[2] = new Employee("Сидоров", "Сидор", "Сидорович", 3, 57000.90);
+        sEmployees[0] = new Employee("Иванов", "Иван", "Иванович", 1, 65500.1065);
+        sEmployees[1] = new Employee("Петров", "Петр", "Петрович", 4, 55500.5699);
+        sEmployees[2] = new Employee("Сидоров", "Сидор", "Сидорович", 4, 57000.90);
         sEmployees[3] = new Employee("Олегов", "Олег", "Олегович", 5, 52600.40);
         sEmployees[4] = new Employee("Сергеев", "Сергей", "Сергеевич", 4, 59200.15);
         sEmployees[5] = new Employee("Александров", "Александр", "Александрович", 5, 48700.10);
-        sEmployees[6] = new Employee("Эдуардов", "Эдуард", "Эдуардович", 4, 69400.90);
+        sEmployees[6] = new Employee("Эдуардов", "Эдуард", "Эдуардович", 3, 69400.90);
         sEmployees[7] = new Employee("Михаилов", "Михаил", "Михайлович", 3, 61300.70);
         sEmployees[8] = new Employee("Викторов", "Виктор", "Викторович", 1, 53000.50);
         sEmployees[9] = new Employee("Андреев", "Андрей", "Андреевич", 2, 59200.95);
 
 
-        printAllInfoEmployees(sEmployees);
-        System.out.println(receiveSumSalaryEmployees(sEmployees));
-        System.out.println(receiveMinSalaryEmployees(sEmployees));
-        System.out.println(receiveMaxSalaryEmployees(sEmployees));
-        System.out.println(receiveAverageValueSalary(sEmployees));
-        printFullNameEmployees(sEmployees);
     }
 
 
@@ -47,8 +42,8 @@ public class Main {
     public static double receiveMinSalaryEmployees(Employee[] sEmployees) {
         double min = sEmployees[0].getEmployeeSalary();
         for (Employee sEmployee : sEmployees) {
-            double j = sEmployee.getEmployeeSalary();
-            if (j < min) min = j;
+            double minTemp = sEmployee.getEmployeeSalary();
+            if (minTemp < min) min = minTemp;
         }
         return min;
     }
@@ -56,8 +51,8 @@ public class Main {
     public static double receiveMaxSalaryEmployees(Employee[] sEmployees) {
         double max = sEmployees[0].getEmployeeSalary();
         for (int i = 0; i < sEmployees.length; i++) {
-            double j = sEmployees[i].getEmployeeSalary();
-            if (j > max) max = j;
+            double maxTemp = sEmployees[i].getEmployeeSalary();
+            if (maxTemp > max) max = maxTemp;
         }
         return max;
     }
@@ -77,4 +72,3 @@ public class Main {
     }
 
 }
-
